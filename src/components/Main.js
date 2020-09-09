@@ -9,12 +9,12 @@ const Main = (props) => {
         <div className="main">
             <div className="row">
                 <div className="half-col">
-                    <h4>An Inspirational Quote Genrator</h4>
-                </div>
-                <div className="half-col">
                     <p className="intro">
-                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Impedit provident blanditiis obcaecati veritatis, ducimus sit tenetur culpa maxime incidunt pariatur nostrum, sed voluptas enim natus possimus consectetur rem, labore totam!
-                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Impedit provident blanditiis obcaecati veritatis, ducimus sit tenetur culpa maxime incidunt pariatur nostrum, sed voluptas enim natus possimus consectetur rem, labore totam!
+                        <h4>
+                            An Inspirational Quote Genrator
+                        </h4>
+                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Impedit provident blanditiis obcaecati veritatis, ducimus sit tenetur culpa maxime incidunt pariatur nostrum, sed voluptas enim natus possimus consectetur rem, labore totam!
+                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Impedit provident blanditiis obcaecati veritatis, ducimus sit tenetur culpa maxime incidunt pariatur nostrum, sed voluptas enim natus possimus consectetur rem, labore totam!
                     </p>
                 </div>
             </div>

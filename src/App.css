@@ -28,6 +28,10 @@ body {
   margin: 7% auto;
 }
 
+.intro>h4 {
+  margin-bottom: 0;
+}
+
 .screenshot {
   width: 30%;
   margin: 2% 1%;
