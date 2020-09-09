@@ -1,38 +1,105 @@
-.App {
+body {
+  animation-name: Background-Color-Transition;
+  animation-duration: 4s;
+  background-color: yellow;
+}
+
+.title-container {
+  margin-top: 7%;
+}
+.title {
+  animation-name: Title-Scale-Effect;
+  animation-duration: 4s;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.main {
+  margin-top: 5%;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+#screenshot-title {
+  text-align: left;
+  margin: 0 0 0 5%;
+}
+
+.intro {
+  text-align: left;
+  width: 90%;
+  margin: 7% auto;
+}
+
+.screenshot {
+  width: 30%;
+  margin: 2% 1%;
+  box-shadow: 0 0 10px black;
+  border-radius: 5px;
+}
+
+.screenshot:hover {
+  animation: Imgs-Rising;
+  animation-duration: 1s;
+  box-shadow: 0 0 30px black;
+}
+
+.row {
+  width: 100%;
+  text-align: center;
+}
+
+@media screen and (max-width: 512px) {
+  .title {
+    animation: Phone-Title-Scale-Effect;
+    animation-duration: 4s;
+    font-size: 1.5em;
+  }
+
+  .half-col {
+    width: 100%;
+    margin: 7% auto 0 auto;
+    text-align: center;
   }
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
+@keyframes Imgs-Rising {
   from {
-    transform: rotate(0deg);
+    box-shadow: 0 0 10px black;
   }
   to {
-    transform: rotate(360deg);
+    box-shadow: 0 0 30px black;
   }
+}
+
+@keyframes Phone-Title-Scale-Effect {
+  from {
+    font-size: 2.7em;
+  }
+  to {
+    font-size: 1.5em;
+  }
+}
+
+@keyframes Title-Scale-Effect {
+  from {
+    font-size: 4em;
+  }
+  to {
+    font-size: 2em;
+  }
+}
+
+@keyframes Title-Scale-Effect {
+  from {
+    font-size: 4em;
+  }
+  to {
+    font-size: 2em;
+  }
+}
+
+@keyframes Background-Color-Transition {
+  0% {background-color: purple;}
+  25% {background-color: red;}
+  50% {background-color: pink;}
+  75% {background-color: orange;}
+  100% {background-color: yellow;}
 }
