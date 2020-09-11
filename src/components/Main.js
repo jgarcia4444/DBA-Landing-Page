@@ -23,7 +23,9 @@ const Main = () => {
                 </div>
             </div>
             <div className="row">
-                <img id="download" src={download} alt="download on the app store"/>
+                <a href="/">
+                    <img id="download" src={download} alt="download on the app store"/>
+                </a>
             </div>
             <hr />
             <div className="row">
@@ -32,20 +34,14 @@ const Main = () => {
             </div>
             <hr />
             <div className="row">
+                
                 <div className="bio-card">
                     <h3 id="chloe-title">The Designer</h3>
-                    <div className="left-img">
-                        <img src={chloe} alt="Chloe in her pageant gown." id="chloe-pagaent" />
-                    </div>
-                <div className="right-bio">
-                    <p>
-                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Impedit provident blanditiis obcaecati veritatis, ducimus sit tenetur culpa maxime incidunt pariatur nostrum, sed voluptas enim natus possimus consectetur rem, labore totam!
-                        Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-                        Check out Chloe's personal site <a id="website-link" rel="noopener noreferrer" target="_blank" href="https://www.teamchloe.com/">teamchloe.com</a>
+                    <img src={chloe} alt="Chloe in her pageant gown." id="chloe-pagaent" />
+                    <p id="chloe-bio">
+                    Chloe Simone Hiller is an energetic and hard working young lady that is making quite a positive impact in the world. #GirlsDreamBelieveandAchieve is a movement that she created to set the tone for how self-confidence and peer support can empower young girls to think, grow and be powerful. Chloe's future plans include attending a four-year university to obtain a bachelor's degree in Broadcast Journalism. She is the studio floor director for her high school's daily news network and podcasts.  An aspiring supermodel that is already creating a buzz on the runway as a five feet ten inch teen phenomenon, Chloe has appeared in numerous model magazines and fashion shows across the Valley of the Sun; she is currently a model ambassador for Arizona locally loved business Glam Squad Couture. Chloe is also a tap dancer, competitive volleyball player and has a keen eye for art and photography. Check out Chloe's website at <a id="website-link" rel="noopener noreferrer" target="_blank" href="https://www.teamchloe.com/">teamchloe.com</a>
                     </p>
                 </div>
-            </div>
-                
             </div>
         </div>
     );

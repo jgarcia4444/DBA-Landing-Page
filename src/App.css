@@ -69,9 +69,19 @@ hr {
   width: 100%;
   text-align: center;
 }
+
+
 #chloe-title {
   text-align: left;
   margin-bottom: 2%;
+}
+
+#chloe-bio {
+  text-align: left;
+  display: block;
+  width: 100%;
+  font-size: 125%;
+  font-weight: 200;
 }
 
 .bio-card {
@@ -79,21 +89,14 @@ hr {
   margin: 0 auto;
 }
 
-.left-img {
-  text-align: left;
-  width: 30%;
-  display: inline-block;
-}
-
 #chloe-pagaent {
   box-shadow: 0 0 10px black;
-  width: 100%;
+  width: 40%;
   border-radius: 5px;
-}
-
-.right-bio {
-  width: 60%;
-  float: right;
+  display: block;
+  float: left;
+  margin-right: 5%;
+  margin-bottom: 2%;
 }
 
 #website-link {
