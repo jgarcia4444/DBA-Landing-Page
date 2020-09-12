@@ -23,6 +23,7 @@ const Main = () => {
                 </div>
             </div>
             <div className="row">
+            <h2>Coming Soon!!</h2>
                 <a href="/">
                     <img id="download" src={download} alt="download on the app store"/>
                 </a>

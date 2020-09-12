@@ -34,6 +34,10 @@ body {
   font-weight: 200;
 }
 
+#download {
+  opacity: 0.3;
+}
+
 hr {
   width: 70%;
   margin: 5% auto;
