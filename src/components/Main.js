@@ -23,8 +23,8 @@ const Main = () => {
                 </div>
             </div>
             <div className="row">
-            <h2>Coming Soon!!</h2>
-                <a href="/">
+            <h2>Download for iOS</h2>
+                <a href="https://apps.apple.com/us/app/blood-pressure-numbers/id1534661419">
                     <img id="download" src={download} alt="download on the app store"/>
                 </a>
             </div>
