@@ -24,7 +24,7 @@ const Main = () => {
             </div>
             <div className="row">
             <h2>Download for iOS</h2>
-                <a href="https://apps.apple.com/us/app/blood-pressure-numbers/id1534661419">
+                <a href="https://apps.apple.com/us/app/dream-believe-achieve/id1531356264">
                     <img id="download" src={download} alt="download on the app store"/>
                 </a>
             </div>
