@@ -4,7 +4,7 @@ import searchQuote from './imgs/searchQuote.png';
 import homeScreen from './imgs/homeScreen.png'
 import chloe from './imgs/Chloe.jpg';
 import download from './imgs/download.svg';
-
+// Test
 const Main = () => {
     const screenshots = [dailyQuote, homeScreen , searchQuote]
     return (
