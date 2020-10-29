@@ -1,22 +1,22 @@
 import React from 'react';
-import dailyQuote from './imgs/dailyQuote.PNG';
-import searchQuote from './imgs/searchQuote.PNG';
-import randomQuote from './imgs/randomQuote.PNG';
-import chloe from './imgs/Chloe.png';
+import dailyQuote from './imgs/dailyQuote.png';
+import searchQuote from './imgs/searchQuote.png';
+import homeScreen from './imgs/homeScreen.png'
+import chloe from './imgs/Chloe.jpg';
 import download from './imgs/download.svg';
 
 const Main = () => {
-    const screenshots = [dailyQuote, searchQuote, randomQuote]
+    const screenshots = [dailyQuote, homeScreen , searchQuote]
     return (
         <div className="main">
             <div className="row">
                 <div className="half-col">
                 <div className="intro-container">
                     <h4 id="intro-header">
-                        An Inspirational Quote Genrator
+                        An Inspirational Quote Generator
                     </h4>
                     <p className="intro">
-                        This app is meant to inspire others and motivate them to become what they want to be. Sometimes you need to read some wisdom from generations past to really see the whole picture. Hopefully these quotes can help inspire someone to achieve their dreams. Through the social media sharing options on this app users can help spread the motivation to aspire to be more to their friends and extended network.
+                    This app was created to inspire users to dream big and believe in themselves so they can achieve their goals. Self-confidence and peer support can empower people to think, grow and be powerful and through the social media sharing options on this app users can help spread the motivation - get empowered and empower others!
                     </p>
                 </div>
                     
@@ -40,7 +40,7 @@ const Main = () => {
                     <h3 id="chloe-title">The Designer</h3>
                     <img src={chloe} alt="Chloe in her pageant gown." id="chloe-pagaent" />
                     <p id="chloe-bio">
-                    Chloe Simone Hiller is an energetic and hard working young lady that is making quite a positive impact in the world. #GirlsDreamBelieveandAchieve is a movement that she created to set the tone for how self-confidence and peer support can empower young girls to think, grow and be powerful. Chloe's future plans include attending a four-year university to obtain a bachelor's degree in Broadcast Journalism. She is the studio floor director for her high school's daily news network and podcasts.  An aspiring supermodel that is already creating a buzz on the runway as a five feet ten inch teen phenomenon, Chloe has appeared in numerous model magazines and fashion shows across the Valley of the Sun; she is currently a model ambassador for Arizona locally loved business Glam Squad Couture. Chloe is also a tap dancer, competitive volleyball player and has a keen eye for art and photography. Check out Chloe's website at <a id="website-link" rel="noopener noreferrer" target="_blank" href="https://www.teamchloe.com/">teamchloe.com</a>
+                    Chloe Simone Hiller is an energetic and hard-working young lady that is making quite a positive impact in the world. She began competing in pageants as a pre-teen and created the #GirlsDreamBelieveandAchieve movement as a result of overcoming poor self-esteem in her middle school years. As a titleholder, Chloe has won several local and state titles and uses her pageant platform to empower others by volunteering in the community and maintaining a strong social media presence. She is currently the producer for her high school's daily news network program and plans to attend a four-year university to obtain a bachelor's degree in Broadcast Journalism. Chloe is also an aspiring model who has appeared in numerous model magazines and fashion shows. Check out Chloe's website at <a id="website-link" rel="noopener noreferrer" target="_blank" href="https://www.teamchloe.com/">teamchloe.com</a>
                     </p>
                 </div>
             </div>
