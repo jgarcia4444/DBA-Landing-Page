@@ -1,5 +1,5 @@
 import React from 'react';
-import dailyQuote from './imgs/dailyQuote.png';
+import dailyQuote from './imgs/dailyQuote.png'
 import searchQuote from './imgs/searchQuote.png';
 import homeScreen from './imgs/homeScreen.png'
 import chloe from './imgs/Chloe.jpg';
