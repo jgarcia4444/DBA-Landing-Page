@@ -2,12 +2,12 @@ import React from 'react';
 // import dailyQuote from './imgs/dailyQuote.png'
 import chloe from '../imgs/Chloe.jpg';
 import download from '../imgs/download.svg';
-import favoritesView from '../imgs/favoritesView.png';
+import dailyQuote from '../imgs/dailyQuote.png';
 import homeScreen from '../imgs/homeScreen.png';
 import searchQuote from '../imgs/searchQuote.png';
 // Test
 const Main = () => {
-    const screenshots = [favoritesView, homeScreen , searchQuote]
+    const screenshots = [dailyQuote, homeScreen , searchQuote]
     return (
         <div className="main">
             <div className="row">
